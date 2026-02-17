@@ -8,7 +8,7 @@ namespace Project_4__GOOD_ONE_attempt_2_
         {
             //Maxym F.
             
-            Part5();
+            Part1();
 
         }
         public static void Part1()
@@ -43,14 +43,17 @@ namespace Project_4__GOOD_ONE_attempt_2_
         }
         public static void Part2() 
         {
-            Console.WriteLine("Please enter the following information so I can sell it for a profit!");
-            Console.WriteLine();
 
             string firstName, lastName;
 
             int  studentID, login;
 
             double average, grade;
+
+            Console.WriteLine("Please enter the following information so I can sell it for a profit!");
+            Console.WriteLine();
+
+            
 
             Console.Write("What's your login info? ");
             Console.WriteLine(Int32.TryParse(Console.ReadLine(), out login));
@@ -92,10 +95,6 @@ namespace Project_4__GOOD_ONE_attempt_2_
 
             string name;
             int age, futureAge, pastAge;
-
-            
-
-            
 
 
             Console.WriteLine("Hello! What is your name?"); 
@@ -153,6 +152,7 @@ namespace Project_4__GOOD_ONE_attempt_2_
         }
         public static void Part5() 
         {
+            //I was oblivious to the fact that this needed to look like a list until I was already done. Sorry.
 
             string item1, item2;
             
